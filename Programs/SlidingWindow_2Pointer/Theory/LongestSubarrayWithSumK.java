@@ -1,10 +1,10 @@
 package SlidingWindow_2Pointer.Theory;
 
 public class LongestSubarrayWithSumK {
-    // Find longest length with sum <= k
+    // Find the longest length with sum <= k
     public static void main(String[] args) {
         int[] arr = {2, 5, 1, 7, 10};
-        System.out.println(longestSubarrayWithSum(arr,14));
+        System.out.println(longestSubarrayWithSum(arr,4));
     }
     public static int longestSubarrayWithSum(int[] arr, int k) {
         int sum = 0;

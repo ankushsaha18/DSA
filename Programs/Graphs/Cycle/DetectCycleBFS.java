@@ -4,7 +4,7 @@ import java.util.*;
 public class DetectCycleBFS {
     public static void main(String[] args) {
         int V = 4;
-        List<Integer> adj[] = new ArrayList[V];
+        List<Integer>[] adj = new ArrayList[V];
         for (int i = 0; i < V; i++) {
             adj[i] = new ArrayList<>();
         }

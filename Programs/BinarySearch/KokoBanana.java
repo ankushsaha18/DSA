@@ -27,10 +27,10 @@ public class KokoBanana {
         }
         return max;
     }
-    private static int calculateSum(int[] nums,int divisor){
+    private static int calculateSum(int[] nums,int hourly){
         int sum = 0;
         for(int num : nums){
-            sum += (num + divisor - 1)/divisor;
+            sum += (num + hourly - 1)/hourly;
         }
         return sum;
     }
